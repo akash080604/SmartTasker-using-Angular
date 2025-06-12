@@ -1,0 +1,4 @@
+<ul class="list-group" *ngIf="tasks.length > 0; else noTasks">
+  <li class="list-group-item" *ngFor="let task of tasks">{{ task }}</li>
+</ul>
+<ng-template #noTasks><p class="text-muted">No tasks added yet.</p></ng-template>

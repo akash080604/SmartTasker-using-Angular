@@ -1,0 +1,5 @@
+<div class="container mt-5">
+  <h1 class="text-center mb-4">SmartTasker</h1>
+  <app-task-form (taskAdded)="onTaskAdded($event)"></app-task-form>
+  <app-task-list [tasks]="tasks"></app-task-list>
+</div>
