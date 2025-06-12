@@ -1,3 +1,5 @@
+This is a very basic web application just to learn how angular works and how to create website using angular for beginners. The below instruction helps in creating Angular files.
+
 # Project
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
